@@ -1,0 +1,29 @@
+{
+  "repo": "cut-stock-proof",
+  "units": 8,
+  "capability": "Prove a bounded minimum-bar plan with explicit between-piece kerf and a search budget.",
+  "user": "Small workshop material planners.",
+  "pain": "Greedy allocation can waste a board, while a search cutoff must not be presented as proven optimal.",
+  "comparables": [
+    "google/or-tools",
+    "bozokopic/opcut",
+    "emadehsan/csp",
+    "ccorcos/stock-cutting"
+  ],
+  "leader": "google/or-tools",
+  "query": "bin packing; cutting stock; official OR-Tools reference follow",
+  "contract": "Strict JSON stock_length, kerf, pieces. Integer lengths1..1000000, kerf0..1000000;1..24 expanded pieces with unique printable IDs and optional quantity. Unlimited identical stock lengths. Kerf is charged only between adjacent pieces, never at ends. Transform length+kerf into bins of stock+kerf; first-fit decreasing upper bound, valid total-capacity lower bound and exhaustive branch search with equal-free-space symmetry pruning. An optimal claim requires reaching the lower bound or completing search. Oversized pieces return infeasible/exit1; budget exhaustion returns exit2 without a plan or optimality claim.",
+  "limits": "64 KiB JSON,250000 search nodes maximum. One stock length, no stock availability/cost objective,2D layouts, end trim, grain, saw sequencing or machine control. The mathematical kerf convention must match the intended planning task; this is not manufacturing certification.",
+  "acceptance": "Greedy3 versus proven2 counterexample; independent brute-force oracle across small multisets and kerfs; every piece exactly once; conservation, quantities, infeasible inputs and budget refusal.",
+  "notes": "OR-Tools provides much broader optimization and was found by following its official bin-packing example, not as the top cutting-stock query hit. Opcut is adjacent2D guillotine cutting; csp and stock-cutting are material-planning alternatives. We do not claim faster search, better industrial plans or missing competitor optimality.",
+  "overlap": "Owned bom-rollup-ledger totals material demand; capacity-cut-report is a network min-cut. Neither solves integer board packing with kerf and an explicit optimality condition.",
+  "topics": [
+    "cutting-stock",
+    "bin-packing",
+    "python",
+    "optimization"
+  ],
+  "standard": "https://developers.google.com/optimization/pack/bin_packing",
+  "expected": "Exit0: six pieces6,5,3,2,2,2 in stock10 need two bars; the reported first-fit upper bound is three.",
+  "module": "cut_stock_proof"
+}
