@@ -1,0 +1,83 @@
+{
+  "repo": "cut-stock-proof",
+  "state": "VALIDATED",
+  "observed": "2026-10-19T06:42:33.562841+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "linux",
+  "unit_methods": 8,
+  "runtime_dependencies": [],
+  "checks": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "-q",
+        "test_behavior"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "----------------------------------------------------------------------\nRan 8 tests in 0.012s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "."
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "pip",
+        "wheel",
+        "--no-deps",
+        "--wheel-dir",
+        "/tmp/gh19-3skyeb17/.wheels",
+        "/workspace/scratch/5d784ffbbfd3/prepared-oct19/cut-stock-proof"
+      ],
+      "exit": 0,
+      "stdout": "Processing ./.\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: cut-stock-proof\n  Building wheel for cut-stock-proof (pyproject.toml): started\n  Building wheel for cut-stock-proof (pyproject.toml): finished with status 'done'\n  Created wheel for cut-stock-proof: filename=cut_stock_proof-0.1.0-py3-none-any.whl size=9414 sha256=e4e4bd445d7291c730b0522cc72b28f369faed0b10844b704221c1b8447f998e\n  Stored in directory: /tmp/pip-ephem-wheel-cache-mkzzp3vc/wheels/c7/9f/37/01a3539402b3591ab4b61ea71a64c4b73cab0f2dbb785827f9\nSuccessfully built cut-stock-proof\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/tmp/gh19-3skyeb17/env/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-index",
+        "--no-deps",
+        "/tmp/gh19-3skyeb17/.wheels/cut_stock_proof-0.1.0-py3-none-any.whl"
+      ],
+      "exit": 0,
+      "stdout": "Processing /tmp/gh19-3skyeb17/.wheels/cut_stock_proof-0.1.0-py3-none-any.whl\nInstalling collected packages: cut-stock-proof\nSuccessfully installed cut-stock-proof-0.1.0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/5d784ffbbfd3/prepared-oct19/cut-stock-proof/verify_installed.py",
+        "/tmp/gh19-3skyeb17/env/bin/python"
+      ],
+      "exit": 0,
+      "stdout": "{\"installed_console\": true, \"outside_checkout\": true, \"expected_results\": true, \"failure_case\": true, \"source_sha256\": \"e9a08b8afe7994a62e07d7f634baaffdef9510a5b8b2e36d8301d3902b7a49d5\", \"source_unchanged\": true}\n",
+      "stderr": ""
+    }
+  ],
+  "installed": {
+    "installed_console": true,
+    "outside_checkout": true,
+    "expected_results": true,
+    "failure_case": true,
+    "source_sha256": "e9a08b8afe7994a62e07d7f634baaffdef9510a5b8b2e36d8301d3902b7a49d5",
+    "source_unchanged": true
+  },
+  "remote_ci": "NOT_YET_PUBLISHED"
+}

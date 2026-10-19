@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "cut-stock-proof"
+version = "0.1.0"
+description = "Prove a bounded minimum-bar plan with explicit between-piece kerf and a search budget."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+[project.scripts]
+cut-stock-proof = "cut_stock_proof:main"
+[tool.setuptools]
+py-modules = ["cut_stock_proof"]

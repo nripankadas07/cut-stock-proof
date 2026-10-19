@@ -1,0 +1,312 @@
+{
+  "comparables": [
+    {
+      "full": "google/or-tools",
+      "url": "https://github.com/google/or-tools",
+      "stars": 14229,
+      "pushed_at": "2026-10-17T13:22:14Z",
+      "archived": false,
+      "license": "Apache-2.0",
+      "branch": "stable",
+      "observed": "2026-10-19T06:23:16.482Z",
+      "issues": [
+        {
+          "number": 5501,
+          "url": "https://github.com/google/or-tools/pull/5501",
+          "title": "Preserve precision in MPS model export"
+        },
+        {
+          "number": 5500,
+          "url": "https://github.com/google/or-tools/pull/5500",
+          "title": "Preserve precision in MPS numeric values"
+        },
+        {
+          "number": 5498,
+          "url": "https://github.com/google/or-tools/issues/5498",
+          "title": "CP-SAT: `fixed` worker returns an infeasible \"OPTIMAL\" from its hint search after importing a shared objective bound; final checker LOG(FATAL)s (`Infeasible solution! source: 'fixed [hint]'`)"
+        },
+        {
+          "number": 5494,
+          "url": "https://github.com/google/or-tools/issues/5494",
+          "title": "Internal persolve crash `absl::container_internal::raw_hash_map<>::at`"
+        },
+        {
+          "number": 5492,
+          "url": "https://github.com/google/or-tools/pull/5492",
+          "title": "WIP: Add MOSEK Support"
+        }
+      ]
+    },
+    {
+      "full": "bozokopic/opcut",
+      "url": "https://github.com/bozokopic/opcut",
+      "stars": 186,
+      "pushed_at": "2025-03-23T17:55:10Z",
+      "archived": false,
+      "license": "GPL-3.0",
+      "branch": "master",
+      "observed": "2026-10-19T06:23:16.472Z",
+      "issues": [
+        {
+          "number": 36,
+          "url": "https://github.com/bozokopic/opcut/issues/36",
+          "title": "PDF Export Dosn't Show Meaurements"
+        },
+        {
+          "number": 35,
+          "url": "https://github.com/bozokopic/opcut/pull/35",
+          "title": "Add PDF dimensions and rotate text in output"
+        },
+        {
+          "number": 34,
+          "url": "https://github.com/bozokopic/opcut/issues/34",
+          "title": "Error of the optimal set"
+        },
+        {
+          "number": 27,
+          "url": "https://github.com/bozokopic/opcut/issues/27",
+          "title": "Algorithms Encounter Lengthy Processing Times with Large Stock Inventories"
+        },
+        {
+          "number": 17,
+          "url": "https://github.com/bozokopic/opcut/issues/17",
+          "title": "Development cycle/workflow doc"
+        }
+      ]
+    },
+    {
+      "full": "emadehsan/csp",
+      "url": "https://github.com/emadehsan/csp",
+      "stars": 156,
+      "pushed_at": "2024-01-10T18:22:46Z",
+      "archived": false,
+      "license": "MIT",
+      "branch": "master",
+      "observed": "2026-10-19T06:23:16.585Z",
+      "issues": [
+        {
+          "number": 37,
+          "url": "https://github.com/emadehsan/csp/issues/37",
+          "title": "CSP 2D"
+        },
+        {
+          "number": 36,
+          "url": "https://github.com/emadehsan/csp/issues/36",
+          "title": "Add 2 or more stock measures possible"
+        },
+        {
+          "number": 34,
+          "url": "https://github.com/emadehsan/csp/issues/34",
+          "title": "going into infinite loop for this test case"
+        },
+        {
+          "number": 33,
+          "url": "https://github.com/emadehsan/csp/issues/33",
+          "title": "Getting slow response form google OR tools"
+        },
+        {
+          "number": 32,
+          "url": "https://github.com/emadehsan/csp/issues/32",
+          "title": "different  length in stock"
+        }
+      ]
+    },
+    {
+      "full": "ccorcos/stock-cutting",
+      "url": "https://github.com/ccorcos/stock-cutting",
+      "stars": 23,
+      "pushed_at": "2025-04-07T04:34:56Z",
+      "archived": false,
+      "license": "UNCLASSIFIED",
+      "branch": "master",
+      "observed": "2026-10-19T06:23:16.616Z",
+      "issues": [
+        {
+          "number": 3,
+          "url": "https://github.com/ccorcos/stock-cutting/issues/3",
+          "title": "data entry in millimeters"
+        },
+        {
+          "number": 2,
+          "url": "https://github.com/ccorcos/stock-cutting/pull/2",
+          "title": "Update import on example"
+        },
+        {
+          "number": 1,
+          "url": "https://github.com/ccorcos/stock-cutting/issues/1",
+          "title": "Wrong result?"
+        }
+      ]
+    }
+  ],
+  "readmes": [
+    {
+      "repo": "google/or-tools",
+      "path": "README.md",
+      "sha": "344dfd9abc4372c20f49e604e9de312e08802230"
+    },
+    {
+      "repo": "bozokopic/opcut",
+      "path": "README.rst",
+      "sha": "282a7e751dc5166283dfc55c350fbaabc19bb8cc"
+    },
+    {
+      "repo": "emadehsan/csp",
+      "path": "README.md",
+      "sha": "8c5498b105d6d2997bc4fb1a6c0ebb78cca939e3"
+    },
+    {
+      "repo": "ccorcos/stock-cutting",
+      "path": "README.md",
+      "sha": "64894670c60f10320a7ed95d675033d2120d0994"
+    }
+  ],
+  "source_references": [],
+  "queries": [
+    {
+      "query": "FITS astronomy",
+      "url": "https://github.com/search?q=FITS%20astronomy&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:32.368Z",
+      "sort": "Most stars",
+      "results": [
+        "ATTron/astroz",
+        "sherpa/sherpa",
+        "esheldon/fitsio",
+        "TheCyberBrick/FITS-Rating-Tool",
+        "danieljprice/splash",
+        "Hrishikesh332/Astronomy_Analysis",
+        "nom-tam-fits/nom-tam-fits",
+        "onekiloparsec/QLFits",
+        "astroclubiitk/Computational-Astrophysics-2021",
+        "JuliaAstro/FITSIO.jl"
+      ]
+    },
+    {
+      "query": "ELF parser",
+      "url": "https://github.com/search?q=ELF%20parser&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:33.523Z",
+      "sort": "Most stars",
+      "results": [
+        "lief-project/LIEF",
+        "eliben/pyelftools",
+        "m4b/goblin",
+        "elfmaster/libelfmaster",
+        "zszszszsz/.config",
+        "aclements/libelfin",
+        "cole14/rust-elf",
+        "finixbit/elf-parser",
+        "aep/elfkit",
+        "fornwall/jelf"
+      ]
+    },
+    {
+      "query": "TIFF image",
+      "url": "https://github.com/search?q=TIFF%20image&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:34.587Z",
+      "sort": "Most stars",
+      "results": [
+        "lovell/sharp",
+        "libvips/libvips",
+        "SixLabors/ImageSharp",
+        "Lymphatus/caesium-image-compressor",
+        "sylikc/jpegview",
+        "drewnoakes/metadata-extractor",
+        "JimBobSquarePants/ImageProcessor",
+        "woelper/oculante",
+        "davidbyttow/govips",
+        "Tom94/tev"
+      ]
+    },
+    {
+      "query": "bin packing",
+      "url": "https://github.com/search?q=bin%20packing&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:35.685Z",
+      "sort": "Most stars",
+      "results": [
+        "cfig/Android_boot_image_editor",
+        "alexfrom0815/Online-3D-BPP-PCT",
+        "juj/RectangleBinPack",
+        "alexfrom0815/Online-3D-BPP-DRL",
+        "jakesgordon/bin-packing",
+        "dvdoug/BoxPacker",
+        "skjolber/3d-bin-container-packing",
+        "enzoruiz/3dbinpacking",
+        "jerry800416/3D-bin-packing",
+        "Flamethr0wer/polygon-packer"
+      ]
+    },
+    {
+      "query": "DRAT proof",
+      "url": "https://github.com/search?q=DRAT%20proof&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:36.716Z",
+      "sort": "Most stars",
+      "results": [
+        "marijnheule/drat-trim",
+        "digama0/frat",
+        "krobelus/rate",
+        "jesse-michael-han/neurocuber-public",
+        "marijnheule/pr2drat",
+        "jingchaochen/abcdSAT_Rat",
+        "benjaminkiesl/drat2er",
+        "cmu-transparency/verified_rup",
+        "prateekkumarweb/sat-verifier",
+        "jjasferreira/maxsat-core-bench"
+      ]
+    },
+    {
+      "query": "cutting stock",
+      "url": "https://github.com/search?q=cutting%20stock&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:22:22.814Z",
+      "sort": "Most stars",
+      "results": [
+        "danderfer/Comp_Sci_Sem_2",
+        "bozokopic/opcut",
+        "emadehsan/csp",
+        "kaiT2en/KaiT2en-Fedora",
+        "fabiofdsantos/2d-cutting-stock-problem",
+        "shivamim/Finance_AgenticAI",
+        "Jimmymugendi/Realtime-Data-Pipeline-for-Stock-Market-Analysis",
+        "AlexanderMorozovDesign/Linear_Cutting",
+        "MasumBhuiyan/2D-Irregular-Cutting-Stock-Algorithm",
+        "ccorcos/stock-cutting"
+      ]
+    },
+    {
+      "query": "Astropy",
+      "url": "https://github.com/search?q=Astropy&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:22:24.018Z",
+      "sort": "Most stars",
+      "results": [
+        "astropy/astropy",
+        "sunpy/sunpy",
+        "astropy/astroquery",
+        "asdf-format/asdf",
+        "astropy-learn/astropy-tutorials",
+        "astropy/photutils",
+        "gammapy/gammapy",
+        "astropy/specutils",
+        "astropy/astropy-workshop",
+        "astropy/ccd-reduction-and-photometry-guide"
+      ]
+    },
+    {
+      "query": "DRUP",
+      "url": "https://github.com/search?q=DRUP&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:22:25.128Z",
+      "sort": "Most stars",
+      "results": [
+        "drupal/drupal",
+        "drupal-composer/drupal-project",
+        "fossasia/phimpme-drupal",
+        "geerlingguy/drupal-vm",
+        "wodby/docker4drupal",
+        "hechoendrupal/drupal-console",
+        "perusio/drupal-with-nginx",
+        "chapter-three/next-drupal",
+        "immunIT/drupwn",
+        "dreadlocked/Drupalgeddon2"
+      ]
+    }
+  ],
+  "primary_reference": "https://developers.google.com/optimization/pack/bin_packing"
+}
